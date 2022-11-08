@@ -2,24 +2,11 @@
 
 name: Liquibase_NodeJS_GitHub-Hosted
 
-on: [push]
 
-# For more control over when the action will run, comment out (or delete) the above and trigger the workflow on master-branch push or pull request
-# by uncommenting the appropriate section below.
-
-# on:
-#  workflow_dispatch:
+on:
+  workflow_dispatch:
 #    inputs:
-#      environment:
-#        description: 'Choose an environment: dev | test | prod'     
-#        required: true
-#        default: 'dev'
-#      tags:
-#        description: 'Test scenario tags'
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
