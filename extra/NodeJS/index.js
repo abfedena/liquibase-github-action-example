@@ -9,7 +9,7 @@ class Liquibase {
 
   constructor(params = {}) {
     const defaultParams = {
-      liquibase: './liquibase/liquibase',
+      liquibase: './abfedena/liquibase',
       changeLogFile: './H2_project/changeLog.h2.sql',
       username: 'admin',
       password: 'password',
